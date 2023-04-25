@@ -8,11 +8,13 @@ Laravel Sürümü: 10
 Kurulum:
 
 <ol>
-<li>1. Bilgisayarınızda composer yoksa ilk öncelikle <a href="https://getcomposer.org/">Composer</a> sitesinden indirip kurun.</li>
+<li>Bilgisayarınızda composer yoksa ilk öncelikle <a href="https://getcomposer.org/">Composer</a> sitesinden indirip kurun.</li>
 <li>
-2. Adım laravel kuralım.
+Adım laravel kuralım.
 
-<code>composer global require laravel/installer</code>
+```
+composer global require laravel/installer
+```
 
 </li>
 </ol>
