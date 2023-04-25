@@ -20,7 +20,7 @@ Composer aracılığıyla Laravel installer'ı kurun:</p>
 <p dir="auto"><code>composer global require "laravel/installer"</code></p>
 <p dir="auto">Installer yüklenikten sonra bu projeyi bilgisayarınıza indirin.
 
-<pre class="notranslate"><code>git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+<pre class="notranslate"><code>git clone git@github.com:whitskin/laravel-myproject.git myproject
 composer install
 cp .env.example .env</code>
 </pre>  
