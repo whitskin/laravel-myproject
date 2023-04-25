@@ -18,7 +18,7 @@ Laravel kurulumu için <a href="https://getcomposer.org/" target="_blank">Compos
 <p dir="auto">Kurulum için tavsiye ettiğimiz yöntem budur.
 Composer aracılığıyla Laravel installer'ı kurun:</p>
 <p dir="auto"><code>composer global require "laravel/installer"</code></p>
-<p dir="auto">Installer yüklenikten sonra bu projeyi bilgisayarınıza indirin.
+<p dir="auto">Installer yüklenikten sonra bu projeyi bilgisayarınıza indirin. Ve .env dosyası içinde gerekli yerleri düzenleyin.
 
 <pre class="notranslate"><code>git clone git@github.com:whitskin/laravel-myproject.git myproject
 composer install
