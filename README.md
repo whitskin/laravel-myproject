@@ -1,4 +1,4 @@
-<h1>Proje Tanımı</p>
+<h1>Proje Tanımı</h1>
 <p>
  Bu proje basit bir üyelik oluşturma personal ekleme düzenleme silme listeleme filitreleme departman ekleme düzenleme silme üzerine yapılmış basit bir laravel projesidir.
  </p>
