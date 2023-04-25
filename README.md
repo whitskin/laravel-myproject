@@ -12,7 +12,7 @@ Kurulum:
 <li>
 Adım laravel kuralım.
 <br>
-```js
+```
 composer global require laravel/installer
 ```
 
