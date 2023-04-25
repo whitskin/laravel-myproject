@@ -33,7 +33,7 @@ create database databaseadı</code>
  
    Ardından tabloları database yükleyelim.
     
-        php artisan migrate --seed
+  php artisan migrate --seed
     
 </li>
 </ul>
