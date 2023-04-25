@@ -11,13 +11,8 @@ Kurulum:
 <li>Bilgisayarınızda composer yoksa ilk öncelikle <a href="https://getcomposer.org/">Composer</a> sitesinden indirip kurun.</li>
 <li>
 Adım laravel kuralım.
-<br>
-    
-```
-    
-composer global require laravel/installer
-
-```
-
 </li>
+```   
+composer global require laravel/installer
+```
 </ol>
