@@ -19,27 +19,22 @@ Composer aracılığıyla Laravel installer'ı kurun:</p>
 
 <pre class="notranslate"><code>git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
 composer install
-cp .env.example .env
-</code>
+cp .env.example .env</code>
 </pre>  
     
 </p>
 </li>
 <li>
 <p dir="auto">Ardından database oluşturalım
- <pre class="notranslate"><code>
- php artisan db
-create database databaseadı
-</code>
+ <pre class="notranslate"><code>php artisan db
+create database databaseadı</code>
 </pre>
  </p>
  
  <p dir="auto">
    Ardından tabloları database yükleyelim.
     
-    <code>
         php artisan migrate --seed
-    </code>
     </p>
 </li>
 </ul>
