@@ -1,9 +1,12 @@
-Bu proje personel üyelik oluşturma personel ekleme düzenleme silme filitreleme ve departman ekleme düzenleme silme üzerine oluşturulmuş basit bir laravel projesidir.
-
-
-PHP Sürümü: 8.0.2
-Laravel Sürümü: 10
-
+<h1>Proje Tanımı</p>
+<p>
+ Bu proje basit bir üyelik oluşturma personal ekleme düzenleme silme listeleme filitreleme departman ekleme düzenleme silme üzerine yapılmış basit bir laravel projesidir.
+ </p>
+ 
+<ul dir="auto">
+<li>PHP &gt;= 8.2.0</li>
+<li>Laravel &gt;= 10</li>
+</ul>
 
 <h1>İlk Adım : Kurulum</h1>
 
