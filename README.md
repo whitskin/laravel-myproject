@@ -5,17 +5,48 @@ PHP Sürümü: 8.0.2
 Laravel Sürümü: 10
 
 
-Kurulum:
+<h1>İlk Adım : Kurulum</h1>
 
-<ol>
-<li>Bilgisayarınızda composer yoksa ilk öncelikle <a href="https://getcomposer.org/">Composer</a> sitesinden indirip kurun.</li>
-<li style="margin-bottom:10px;">
-Adım laravel kuralım.
+Laravel kurulumu için <a href="https://getcomposer.org/">Composer</a> 'ı kullanmakta. Dolayısıyla Laravel'i kullanmaya başlamadan önce sisteminize Composer'ı kurmanız gerekmekte.
+
+<ul dir="auto">
+<li>
+<p dir="auto">Laravel installer</p>
+<p dir="auto">Kurulum için tavsiye ettiğimiz yöntem budur.
+Composer aracılığıyla Laravel installer'ı kurun:</p>
+<p dir="auto"><code>composer global require "laravel/installer"</code></p>
+<p dir="auto">Installer yüklenikten sonra bu projeyi bilgisayarınıza indirin.
+
+<pre class="notranslate"><code>git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+composer install
+cp .env.example .env
+</code>
+</pre>  
+    
+</p>
 </li>
+<li>
+<p dir="auto">Ardından database oluşturalım
+ <pre class="notranslate"><code>
+ php artisan db
+create database databaseadı
+</code>
+</pre>
+ </p>
+ 
+ <p dir="auto">
+   Ardından tabloları database yükleyelim.
+    
+    <code>
+        php artisan migrate --seed
+    </code>
+    </p>
+</li>
+</ul>
 
-```
-    
-composer global require laravel/installer
-    
-```
+<h2>Özellikler</h2>
+<ol dir="auto">
+<li>Üyelik oluşturma.</li>
+<li>Personal ekleme , düzenleme , silme , listeleme, filitreleme yapabilirsiniz.</li>
+ <li>Departman ekleme , düzenleme , silme , listeleme yapabilirsiniz.</li>
 </ol>
