@@ -31,11 +31,10 @@ create database databaseadı</code>
 </pre>
  </p>
  
- <p dir="auto">
    Ardından tabloları database yükleyelim.
     
         php artisan migrate --seed
-    </p>
+    
 </li>
 </ul>
 
