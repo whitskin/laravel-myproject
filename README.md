@@ -10,7 +10,7 @@
 
 <h1>İlk Adım : Kurulum</h1>
 
-Laravel kurulumu için <a href="https://getcomposer.org/">Composer</a> 'ı kullanmakta. Dolayısıyla Laravel'i kullanmaya başlamadan önce sisteminize Composer'ı kurmanız gerekmekte.
+Laravel kurulumu için <a href="https://getcomposer.org/" targe="_blank">Composer</a> 'ı kullanmakta. Dolayısıyla Laravel'i kullanmaya başlamadan önce sisteminize Composer'ı kurmanız gerekmekte.
 
 <ul dir="auto">
 <li>
